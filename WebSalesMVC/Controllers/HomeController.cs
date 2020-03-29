@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebSalesMVC.Models;
-using WebSalesMVC.Models.ViewModels;
 
 namespace WebSalesMVC.Controllers {
     public class HomeController : Controller {
