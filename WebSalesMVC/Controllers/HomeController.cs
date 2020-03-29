@@ -13,7 +13,10 @@ namespace WebSalesMVC.Controllers {
         }
 
         public IActionResult About() {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sistema de Vendas MVC from C# .Net Core.";
+            ViewData["Developer"] = "G13 Teconoliga";
+            ViewData["Autor"] = "Gustavo Fernandes";
+
 
             return View();
         }
